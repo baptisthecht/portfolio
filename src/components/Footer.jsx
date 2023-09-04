@@ -32,9 +32,9 @@ export default function Footer() {
         {
             darkMode
             ?
-            <img src="quotedark.png" alt="quote" className='h-[18px]' />
+            <img src="Quotedark.png" alt="quote" className='h-[18px]' />
             :
-            <img src="quote.png" alt="quote" className='h-[18px]' />
+            <img src="Quotedark.png" alt="quote" className='h-[18px]' />
         }
     </div>
   )
