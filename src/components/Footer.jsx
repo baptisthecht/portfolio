@@ -34,7 +34,7 @@ export default function Footer() {
             ?
             <img src="Quotedark.png" alt="quote" className='h-[18px]' />
             :
-            <img src="Quotedark.png" alt="quote" className='h-[18px]' />
+            <img src="quote.png" alt="quote" className='h-[18px]' />
         }
     </div>
   )
