@@ -1,8 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx"
-import About from "./pages/About.jsx";
 import { DarkModeProvider } from './DarkModeContext';
-import Timeline from './pages/Timeline.jsx'
+import Soon from "./pages/Soon.jsx";
 
 export default function App() {
 
@@ -15,11 +14,19 @@ export default function App() {
     },
     {
       path: "/about",
-      element: <About/>,
+      element: <Soon/>,
     },
     {
       path: "/timeline",
-      element: <Timeline/>,
+      element: <Soon/>,
+    },
+    {
+      path: "/work",
+      element: <Soon/>,
+    },
+    {
+      path: "/more",
+      element: <Soon/>,
     },
   ]);
 

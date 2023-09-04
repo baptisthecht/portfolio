@@ -29,9 +29,9 @@ export default function NavBarComponent() {
             <div id="Menu" className='flex items-start gap-[24px] px-[12px]'>
                 <Link to='https://github.com/baptisthecht' className='text-base font-bold ' style={{background: 'var(--gradients-retro-2, linear-gradient(90deg, #4AB1F1 0%, #566CEC 32.81%, #D749AF 65.63%, #FF7C51 100%))', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>git</Link>
                 <Link to="/about" className='text-base font-medium ' style={{color : fontColor}}>about</Link>
-                <Link className='text-base font-medium ' style={{color : fontColor}}>work</Link>
+                <Link to="/work" className='text-base font-medium ' style={{color : fontColor}}>work</Link>
                 <Link to="/timeline" className='text-base font-medium ' style={{color : fontColor}}>timeline</Link>
-                <Link className='text-base font-medium ' style={{color : fontColor}}>more</Link>
+                <Link to="/more" className='text-base font-medium ' style={{color : fontColor}}>more</Link>
             </div>
         </div>
         <div id="RightMenu" className='flex items-center gap-[12px]'>
