@@ -28,7 +28,7 @@ export default function App() {
     <div>
       <Helmet>
         <title>baahct - portfolio</title>
-        <link rel="favicon" type="image/png" href="Avatar.png"/>
+        <link rel="icon" type="image/png" href="Avatar.png"/>
   </Helmet>
       <DarkModeProvider>
              <RouterProvider router={router} />
