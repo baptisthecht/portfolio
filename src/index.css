@@ -19,6 +19,7 @@ body {
   background-image: url('../public/header-gradient.png'), url('../public/footer-gradient.png');
   background-repeat: no-repeat;
   background-position: top left, bottom left;
+  background-size: center;
 }
 
 code {
