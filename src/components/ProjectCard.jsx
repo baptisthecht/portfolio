@@ -12,7 +12,7 @@ export default function ProjectCard({path, name, desc, link}) {
       }, [darkMode])
 
   return (
-    <Link to={link} className={darkMode ? 'cardhoverdark flex flex-col items-start gap-[8px] rounded-[16px] p-[12px] pb-[16px] w-[220px] h-auto cursor-pointer' : 'cardhoverlight flex flex-col items-start gap-[8px] rounded-[16px] p-[12px] pb-[16px] w-auto h-auto cursor-pointer'}>
+    <Link to={link} className={darkMode ? 'cardhoverdark flex flex-col items-start gap-[8px] rounded-[16px] p-[12px] pb-[16px] w-[220px] h-auto cursor-pointer' : 'cardhoverlight flex flex-col items-start gap-[8px] rounded-[16px] p-[12px] pb-[16px] w-[220px] h-auto cursor-pointer'}>
         <img style={{ borderRadius: '18px'}} src={process.env.PUBLIC_URL + path} alt="" className='w-[200px] h-[200px]'/>
         <div>
             <p className='text-base font-bold font-[16px]' style={{color: fontColor}}>{name}</p>
