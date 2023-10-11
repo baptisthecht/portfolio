@@ -16,9 +16,10 @@ export default function Works() {
     <div className='pt-[60px] inline-flex p-[16px] flex-col align-start gap-[16px]'>
         <p style={{ color: secondaryColor}} className='py-8 pl-3 font-[14px] font-bold tracking-[3px]'>FEATURED PROJECTS</p>
         <div className='grid grid-cols-3 gap-[14px] mx-auto'>
-            <ProjectCard name="Portfolio" path="/Work/image 792.png" desc="This website" link='/'/>
-            <ProjectCard name="Roma Roma" path="/Work/romaroma.png" desc="Interactive menu" link='https://client-roma-roma.vercel.app/'/>
-            <ProjectCard name="Garage Parrot" path="/Work/garage.png" desc="Commercial website" link='https://bit.ly/garage-parrot'/>
+            <ProjectCard name="Portfolio" path="/Work/image 792.png" desc="This website · Made with ReactJS (NodeJS) and tailwind" link='/'/>
+            <ProjectCard name="Roma Roma" path="/Work/romaroma.png" desc="Interactive menu · Made with ReactJS (NodeJS) and tailwind" link='https://client-roma-roma.vercel.app/'/>
+            <ProjectCard name="Garage Parrot" path="/Work/garage.png" desc="Commercial website · Made with PHP/Symfony and Bootstrap" link='https://bit.ly/garage-parrot'/>
+            <ProjectCard name="Rylco.app" path="/Work/rylco.png" desc="Front Components Sharing Website (Personnal Project) · Made with PHP/Symfony and Tailwind (soon)" link='https://rylco.app/'/>
         </div>
     </div>
   )
